@@ -19,7 +19,6 @@
 array = ["apple", "pear", "face", "champagne", "palm tree", "aardvark", "pineapple"]
 string = "Hi, isn't this a great and interesting sentence??"
 
-word_count(string)
 def word_count(s)
   puts s.split.size
 end
@@ -33,3 +32,4 @@ end
 #     count +=1
 #   end
 # end
+word_count(string)
