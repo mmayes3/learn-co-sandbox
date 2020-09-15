@@ -19,7 +19,7 @@ foods = {"pie" => "delicious", "broccoli" => "not delicious",
 "carrots" => "not delicious", "apples" => "delicious",
 "peanut butter" => "delicious"}
 
-def del(foods)
+def del(f)
   foods.each do |key, value|
     if value == "delicious"
       puts key
@@ -27,4 +27,4 @@ def del(foods)
   end
 end
 
-del
+del(foods)
