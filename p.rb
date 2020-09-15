@@ -20,7 +20,8 @@ array = ["apple", "pear", "face", "champagne", "palm tree", "aardvark", "pineapp
 string = "Hi, isn't this a great and interesting sentence??"
 
 def word_count(s)
-  p s.split
+  k =  s.split
+  puts k.length
 end
 
 def arr(a)
