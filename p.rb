@@ -16,20 +16,10 @@
 # end
 
 
-array = ["apple", "pear", "face", "champagne", "palm tree", "aardvark", "pineapple"]
-string = "Hi, isn't this a great and interesting sentence??"
 
-def word_count(s)
-  puts s.split.size
+
+def friendly_greeting(name=nil)
+ name ||= "friend"
+ puts "Hey there, #{name}"
 end
-
-# def arr(a)
-#   count = 0
-#   while count < a.length do
-#     if a[count][0] == "a"
-#       puts a[count]
-#     end
-#     count +=1
-#   end
-# end
-word_count(string)
+friendly_greeting
