@@ -18,7 +18,7 @@
 
 
 def del(f)
-  foods.each do |key, value|
+  f.each do |key, value|
     if value == "delicious"
       puts key
     end
