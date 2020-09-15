@@ -19,7 +19,7 @@
 
 
 def friendly_greeting(name=nil)
- name 
+ name ||= "friend"
  puts "Hey there, #{name}"
 end
 
