@@ -17,7 +17,7 @@
 
 
 array = ["apple", "pear", "face", "champagne", "palm tree", "aardvark", "pineapple"]
-
+string = "Hi, isn't this a great and interesting sentence??"
 
 def arr(a)
   count = 0
