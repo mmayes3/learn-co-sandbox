@@ -18,7 +18,7 @@
 
 
 
-def friendly_greeting(name="hello")
+def friendly_greeting(name="friend")
  name ||= "friend"
  puts "Hey there, #{name}"
 end
