@@ -18,11 +18,5 @@
 
 
 
-def my_favorite_animal
-  "cat"
-end
-
-best_animal = my_favorite_animal
-
-puts my_favorite_animal
+"Blink" + 182
 
