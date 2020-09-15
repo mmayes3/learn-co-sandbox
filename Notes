@@ -1,0 +1,33 @@
+#touch creates .rb file in terminal. Acces by using rube "file name".rb
+Print using: print, puts:(prints with a \n), or p: (prints with literal code/does not return nil)
+Use (loop do) to create an infinite loop
+to avoid multiple elsif's use case
+case name
+  when ""
+    puts
+  when
+end
+"until" is "while if not", "unless" is if not
+counter = 0
+until counter == 20
+  puts "The current number is less than 20."
+  counter += 1
+end
+Strategies for Getting Unstuck: Simplify the problem,Research similar problems and solutions, don't want to cut and paste code into your own solution, Look at the problem from a different angle,Break the problem down into smaller parts, Start with a solution and solve the problem backwards, Run Uphill: Do the "Hard Thing" You Don't Want to Do. 
+pseudocode:
+Procedure DivideBaguetteEvenly(baguette, n):
+  baguette_length = measure(baguette)
+  even_length = baguette_length / n
+  collection = []
+ 
+  while baguette_length > even_length:
+    piece, rest = cut_bread(baguette, even_length)
+    collection.add(piece)
+ 
+    baguette = rest
+    baguette_length = measure(baguette)
+ 
+  even_pieces = collection
+  return even_pieces
+  Introducing State Tables
+State tables are tables that keep track of the inputs, outputs, local variables, and conditions in a bounded or fenced-off "bloc" of code or pseudocode.
