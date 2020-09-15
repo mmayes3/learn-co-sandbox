@@ -16,7 +16,7 @@
 # end
 
 
-array = ["apple", "banna"]
+array = ["apple", "pear", "face", "champagne", "palm tree", "aardvark", "pineapple"]
 
 
 def arr(a)
