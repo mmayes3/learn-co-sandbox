@@ -24,5 +24,5 @@ end
 
 best_animal = my_favorite_animal
 
-puts best_animal
+puts my_favorite_animal
 
