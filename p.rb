@@ -15,9 +15,7 @@
 #   count += 1
 # end
 
-foods = {"pie" => "delicious", "broccoli" => "not delicious",
-"carrots" => "not delicious", "apples" => "delicious",
-"peanut butter" => "delicious"}
+
 
 def del(f)
   foods.each do |key, value|
@@ -26,5 +24,7 @@ def del(f)
     end
   end
 end
-
+foods = {"pie" => "delicious", "broccoli" => "not delicious",
+"carrots" => "not delicious", "apples" => "delicious",
+"peanut butter" => "delicious"}
 del(foods)
