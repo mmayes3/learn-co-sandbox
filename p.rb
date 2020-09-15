@@ -24,13 +24,13 @@ def word_count(s)
   puts k.length
 end
 
-def arr(a)
-  count = 0
-  while count < a.length do
-    if a[count][0] == "a"
-      puts a[count]
-    end
-    count +=1
-  end
-end
+# def arr(a)
+#   count = 0
+#   while count < a.length do
+#     if a[count][0] == "a"
+#       puts a[count]
+#     end
+#     count +=1
+#   end
+# end
 word_count(string)
